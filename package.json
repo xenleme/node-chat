@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/xenleme/node-chat/issues"
   },
-  "homepage": "https://github.com/xenleme/node-chat#readme"
+  "homepage": "https://github.com/xenleme/node-chat#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
