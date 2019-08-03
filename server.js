@@ -16,3 +16,7 @@ mongoose.connect(dbUrl, err => {
 });
 
 const Message = mongoose.model('Message', { name: String, message: String });
+
+const bodyParser = require('body-parser');
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false }));
